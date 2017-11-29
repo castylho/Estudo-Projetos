@@ -1,0 +1,92 @@
+body{
+  margin:0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+main{
+  width: 70%;
+  margin:auto;
+}
+li{
+  list-style-type: none;
+}
+button{
+  padding: 1em;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px;
+  color: #fff;
+}
+nav{
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 100%;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+#saida{
+  background: #fff;
+  padding: 1em;
+}
+#getUsers{
+  background: #5cb85c;
+}
+#getPosts{
+  background: #0275d8;
+}
+#getPhotos{
+  background: #f0ad4e;
+}
+.resposta{
+  background: lightcoral;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.resposta p{
+  text-align: center;
+}
+#saida h2{
+  text-align: center;
+}
+.users{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.posts{
+  padding: 1em;
+}
+
+.photos{
+  padding: 1em;
+}
+.grid4{
+  display: grid;
+  grid-gap: 10px
+}
+
+
+@media (max-width:600px) {
+  main{width: 90%;}
+  .grid4{grid-template-columns: 1fr;}
+}
+@media (min-width:600px) {
+  .grid4{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width:800px) {
+  .grid4{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width:992px) {
+  .grid4{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

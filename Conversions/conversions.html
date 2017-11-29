@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Conversions</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <style media="screen">
+    .card{
+      padding: 1em;
+    }
+  </style>
+</head>
+<body class="container">
+  <h1 class="d-flex justify-content-center">Conversion test</h1>
+  <nav>
+    <div class="form-group">
+      <label for="unitConversion">Categories</label>
+      <select class="form-control" id="unitConversion">
+        <option>Select an option</option>
+        <option>Mass</option>
+        <option>Length</option>
+      </select>
+    </div>
+  </nav>
+  <hr>
+  <main>
+    <div class="form-group">
+      <label for="value">Value</label>
+      <input type="number" class="form-control">
+    </div>
+    <div id="results">
+      <div class="card text-white bg-primary">
+        <div class="card-block">
+          <h4>????</h4>
+          <div id="saida"></div>
+        </div>
+      </div>
+
+      <div class="card text-white bg-secondary">
+        <div class="card-block">
+          <h4>????</h4>
+          <div id="saida"></div>
+        </div>
+      </div>
+
+      <div class="card text-white bg-danger">
+        <div class="card-block">
+          <h4>???</h4>
+          <div id="saida"></div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script type="text/javascript" src="conversions.js">
+
+  </script>
+</body>
+</html>

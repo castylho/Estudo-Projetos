@@ -1,0 +1,39 @@
+body{
+  margin:0;
+  font-family: sans-serif;
+}
+main{
+  width: 70%;
+  margin:auto;
+  background: lightgreen;
+  padding: 1em;
+  text-align: center;
+/*IMAGE STUFF
+  background-image: url("https://static.pexels.com/photos/108941/pexels-photo-108941.jpeg");
+  background-position: center;
+  background-size: cover;*/
+}
+footer{
+text-align: center;
+background: #f4f4f4;
+}
+.saida{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.saida p { font-size: 2em; font-weight: bold;}
+.boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  padding: 1em;
+  background: lightcoral;
+  margin-right: 5px;
+  border-radius: 15px
+}
+.infos{
+  display: flex;
+}

@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  /*background: #222;*/
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.finder{
+text-align: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 480px;
+  margin: auto;
+}
+
+input{
+  padding: 1em;
+  border-radius: 25px;
+}
+button{
+  background-color: #00bc8c;
+  border: 0;
+  color: #fff;
+  padding: 1em;
+}
+
+.saida {
+  background: aquamarine;
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-gap: 1em;
+  border-radius: 50px;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  width: 80%;
+}
+
+@media (min-width:600px) {
+  .saida{
+    grid-template-columns: 1fr 1fr;
+  }
+}
